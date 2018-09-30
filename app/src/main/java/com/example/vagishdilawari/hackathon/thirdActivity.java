@@ -104,7 +104,7 @@ public class thirdActivity extends AppCompatActivity {
     public String xxxx=new String();
 
     public void loop2(){
-        for(int i=0;i<43;i++){
+        for(int i=0;i<59;i++){
             xxxx+=xx.charAt(i);
         }
 
@@ -123,25 +123,25 @@ public class thirdActivity extends AppCompatActivity {
     public void btn1(View view)
     {
         CALL();
-        n=1;
+        n=0;
     }
 
 
     public void btn2(View view)
     {    CALL();
-        n=2;
+        n=1;
     }
     public void btn3(View view)
     {    CALL();
-        n=3;
+        n=2;
     }
     public void btn4(View view)
     {    CALL();
-        n=4;
+        n=3;
     }
     public void btn5(View view)
     {    CALL();
-        n=5;
+        n=4;
     }
     public void launch(View view)
     {
