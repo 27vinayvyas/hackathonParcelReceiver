@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".nextActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press the \'REQUEST\' button below to send messages to the preselected 5 acquaintances and request them to collect your parcel."
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="request"
+        android:onClick="sendMsg"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="If someone has accepted your request,press the \'INFORM\' button below to inform the rest to not collect your parcel."
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inform"
+            android:onClick="inform"
+            android:text="inform"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            />
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:text="BACK"
+        android:onClick="back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>

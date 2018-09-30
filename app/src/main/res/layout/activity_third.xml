@@ -1,0 +1,163 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".thirdActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLICK"
+            android:onClick="btn1"
+            android:id="@+id/butn1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIRST PERSON"
+            android:layout_marginLeft="200px"
+            android:width="550px"
+            android:textAlignment="center"
+            android:id="@+id/tv1"
+
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLICK"
+            android:onClick="btn2"
+            android:id="@+id/butn2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SECOND PERSON"
+            android:layout_marginLeft="200px"
+            android:width="550px"
+            android:textAlignment="center"
+            android:id="@+id/tv2"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLICK"
+            android:onClick="btn3"
+            android:id="@+id/butn3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THIRD PERSON"
+            android:layout_marginLeft="200px"
+            android:width="550px"
+            android:textAlignment="center"
+            android:id="@+id/tv3"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLICK"
+            android:onClick="btn4"
+            android:id="@+id/butn4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FOURTH PERSON"
+            android:layout_marginLeft="200px"
+            android:width="550px"
+            android:textAlignment="center"
+            android:id="@+id/tv4"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLICK"
+            android:onClick="btn5"
+            android:id="@+id/butn5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIFTH PERSON"
+            android:layout_marginLeft="200px"
+            android:width="550px"
+            android:textAlignment="center"
+            android:id="@+id/tv5"
+            />
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="110px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lacnch"
+            android:text="launch"
+            android:onClick="launch"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/paytm"
+            android:text="PayTm"
+            android:onClick="paytm"
+            android:layout_alignRight="@+id/lacnch"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:id="@+id/back"
+            android:onClick="baack"
+            android:layout_alignBottom="@+id/paytm"/>
+    </LinearLayout>
+
+
+</LinearLayout>

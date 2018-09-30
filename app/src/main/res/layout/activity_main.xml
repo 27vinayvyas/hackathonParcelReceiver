@@ -1,0 +1,92 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity"
+    >
+
+    <EditText
+        android:id="@+id/delivery_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Delivery boy's phone number"
+        android:inputType="textMultiLine"
+        android:layout_margin="16dp"
+        />
+
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make above field not necessary"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="switchOn1"/>
+        <!--android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"-->
+
+
+    <EditText
+        android:id="@+id/delivery_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Delivery boy's location"
+        android:inputType="textMultiLine"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make above field not necessary"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="switchOn2"/>
+    <!--android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"-->
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Send sms to the 5 friends whose numbers are preloaded in this app for them to collect your parcel from the delivery boy !!!"
+        style="@style/CustomText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="delivery"
+        android:id="@+id/sms1"
+        android:text="i'm in a hurry"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toNextActivity"
+        android:onClick="NActivity"
+        android:text="i'm away"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fourth"
+        android:text="change acquaintances"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>
+
